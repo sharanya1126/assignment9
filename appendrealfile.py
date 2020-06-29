@@ -1,0 +1,5 @@
+myfile=open("abc.txt","a+")
+myfile.write("Python Exercises\n")
+myfile.write("Java Exercises")
+myfile=open("abc.txt")
+print(myfile.read())
